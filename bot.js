@@ -10,12 +10,12 @@ const logger = loggers.logger;
 
 function createBot() {
    const bot = mineflayer.createBot({
-      username: config['bot-account']['username'],
+      username: config['AFKBot']['AFKBot'],
       password: config['bot-account']['password'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
-      version: config.server.version,
+      host: config.KyriosSMP.aternos.me,
+      port: config.57540,
+      version: config.1.21.4,
    });
 
    bot.loadPlugin(pathfinder);
