@@ -1,13 +1,13 @@
 {
   "bot-account": {
-    "username": "bot",
+    "username": "AFKBot",
     "password": "your_password",
     "type": "microsoft"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "KyriosSMP.aternos.me",
+    "port": 57540,
     "version": "1.19.3"
   },
 
@@ -25,14 +25,14 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
-        "enabled": false,
-        "delay": 1000,
+        "enabled": true,
+        "delay": 1,
         "attack-mobs": false
       },
 
